@@ -1,0 +1,28 @@
+.tool-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
+  }
+  
+  .category-section {
+    margin-bottom: 40px;
+  }
+  
+  .category-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eeeeee;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  
+  .card-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+  }
+  

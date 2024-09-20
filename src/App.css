@@ -1,27 +1,65 @@
+/* Global Styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f9;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  color: #333333;
 }
 
-.App-header {
-  background-color: #282c34;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #222222;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 20px;
+}
+
+header {
+  background-color: #2C3E50;
   color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+footer {
+  margin-top: 40px;
+  background-color: #2C3E50;
+  color: white;
+  padding: 20px;
   text-align: center;
 }
 
-main {
+/* General Utilities */
+.flex-center {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  padding: 20px;
+  align-items: center;
 }
-.tool-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
 }

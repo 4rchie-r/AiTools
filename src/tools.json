@@ -1,18 +1,153 @@
 [
     {
-      "name": "ChatGPT",
-      "description": "A conversational AI language model by OpenAI."
+      "category": "Image Generation",
+      "tools": [
+        {
+          "name": "DALL·E",
+          "description": "Generates images from text prompts."
+        },
+        {
+          "name": "DeepArt",
+          "description": "Transforms your photos into artworks using AI."
+        },
+        {
+          "name": "Artbreeder",
+          "description": "Creates images by blending multiple inputs and parameters."
+        },
+        {
+          "name": "Runway ML",
+          "description": "AI-powered video and image creation tool."
+        },
+        {
+          "name": "GANPaint",
+          "description": "An interactive AI tool to manipulate parts of an image."
+        }
+      ]
     },
     {
-      "name": "DALL·E",
-      "description": "An AI tool that generates images from text prompts."
+      "category": "Editing Tools",
+      "tools": [
+        {
+          "name": "Adobe Sensei",
+          "description": "AI features within Adobe's creative suite for faster editing."
+        },
+        {
+          "name": "Fotor",
+          "description": "An online photo editor using AI to enhance images."
+        },
+        {
+          "name": "Luminar AI",
+          "description": "AI-powered photo editing for quick and professional edits."
+        },
+        {
+          "name": "Remove.bg",
+          "description": "Automatically removes the background from images."
+        },
+        {
+          "name": "Descript",
+          "description": "A video editing tool that allows for text-based editing."
+        }
+      ]
     },
     {
-      "name": "Codex",
-      "description": "A powerful model for writing code using natural language input."
+      "category": "Productivity Tools",
+      "tools": [
+        {
+          "name": "Notion AI",
+          "description": "Boosts productivity by generating summaries and organizing notes."
+        },
+        {
+          "name": "Otter.ai",
+          "description": "AI-powered tool for transcription and note-taking."
+        },
+        {
+          "name": "Grammarly",
+          "description": "Helps improve your writing by providing grammar and style suggestions."
+        },
+        {
+          "name": "Hootsuite",
+          "description": "Manages social media scheduling and engagement using AI."
+        },
+        {
+          "name": "Zapier",
+          "description": "Automates workflows between apps and services."
+        }
+      ]
     },
     {
-      "name": "Whisper",
-      "description": "An automatic speech recognition (ASR) system for transcribing audio."
+      "category": "AI Assistants",
+      "tools": [
+        {
+          "name": "Siri",
+          "description": "Apple’s AI assistant that helps with tasks, information, and more."
+        },
+        {
+          "name": "Google Assistant",
+          "description": "Google’s AI assistant for smart devices and day-to-day tasks."
+        },
+        {
+          "name": "Cortana",
+          "description": "Microsoft’s digital assistant for productivity and tasks."
+        },
+        {
+          "name": "Alexa",
+          "description": "Amazon’s AI assistant integrated with smart home devices."
+        },
+        {
+          "name": "Bixby",
+          "description": "Samsung’s AI assistant for their devices and services."
+        }
+      ]
+    },
+    {
+      "category": "Chatbots",
+      "tools": [
+        {
+          "name": "ChatGPT",
+          "description": "A conversational AI developed by OpenAI for interactive dialogues."
+        },
+        {
+          "name": "Replika",
+          "description": "An AI chatbot that acts as a companion for users."
+        },
+        {
+          "name": "Mitsuku",
+          "description": "A chatbot built to converse with users in a realistic way."
+        },
+        {
+          "name": "Woebot",
+          "description": "A chatbot offering mental health support through conversations."
+        },
+        {
+          "name": "Drift",
+          "description": "An AI chatbot tool for business and customer engagement."
+        }
+      ]
+    },
+    {
+      "category": "Audio & Speech",
+      "tools": [
+        {
+          "name": "Whisper",
+          "description": "AI tool for transcribing and understanding speech."
+        },
+        {
+          "name": "Sonix",
+          "description": "Automated transcription and translation tool for audio files."
+        },
+        {
+          "name": "Speechnotes",
+          "description": "Speech-to-text tool designed for fast transcription."
+        },
+        {
+          "name": "Rev AI",
+          "description": "Provides transcription and speech analytics using AI."
+        },
+        {
+          "name": "Descript Overdub",
+          "description": "Allows you to create a text-to-speech voice clone for audio editing."
+        }
+      ]
     }
   ]
+  
