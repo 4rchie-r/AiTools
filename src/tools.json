@@ -1,0 +1,18 @@
+[
+    {
+      "name": "ChatGPT",
+      "description": "A conversational AI language model by OpenAI."
+    },
+    {
+      "name": "DALL·E",
+      "description": "An AI tool that generates images from text prompts."
+    },
+    {
+      "name": "Codex",
+      "description": "A powerful model for writing code using natural language input."
+    },
+    {
+      "name": "Whisper",
+      "description": "An automatic speech recognition (ASR) system for transcribing audio."
+    }
+  ]
