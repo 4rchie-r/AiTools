@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import ToolList from './components/ToolList';
+import TextCompletion from './components/TextCompletion';
+import SentimentAnalysis from './components/SentimentAnalysis';
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       </header>
       <main>
         <ToolList />
+        <TextCompletion />
+        <SentimentAnalysis />
       </main>
     </div>
   );

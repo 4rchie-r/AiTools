@@ -66,4 +66,64 @@ footer p:hover {
   justify-content: center;
   align-items: center;
 }
+.card {
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  width: 300px; /* Adjusted for wider cards */
+  margin: 20px auto; /* Centering the card */
+  color: #ffffff;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2), 0 0 15px rgba(32, 156, 238, 0.8);
+}
+
+.card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #fff;
+  text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card p {
+  font-size: 1rem;
+  color: #e0e0e0;
+}
+
+.card p:hover {
+  color: #ffffff;
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
+}
+
+/* Input field and button styles */
+.input-field {
+  padding: 10px;
+  width: 100%;
+  max-width: 250px; /* Adjust for card width */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.action-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #00c6ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+  background-color: #0095e0;
+}
+
 
