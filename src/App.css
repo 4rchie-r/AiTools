@@ -1,15 +1,16 @@
-/* Global Styles */
+
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #f4f4f9;
+  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
   margin: 0;
   padding: 0;
-  color: #333333;
+  color: #ffffff;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
-  color: #222222;
+  color: #ffffff;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
 }
 
 a {
@@ -24,42 +25,45 @@ a {
 }
 
 header {
-  background-color: #2C3E50;
+  background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
   color: white;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 header h1 {
   margin: 0;
-  font-size: 2.5rem;
-  font-weight: 600;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
 }
 
 footer {
   margin-top: 40px;
-  background-color: #2C3E50;
+  background-color: #111;
   color: white;
   padding: 20px;
   text-align: center;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
 
-/* General Utilities */
+footer p {
+  font-size: 1rem;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+
+footer p:hover {
+  color: #00c6ff;
+  text-shadow: 0 0 15px #00c6ff, 0 0 30px rgba(0, 198, 255, 0.8);
+}
+
+
 .flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.mt-20 {
-  margin-top: 20px;
-}
-
-.mb-20 {
-  margin-bottom: 20px;
-}
-
-.mb-40 {
-  margin-bottom: 40px;
-}

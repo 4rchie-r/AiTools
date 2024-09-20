@@ -7,7 +7,6 @@ const ToolList = () => {
   const [tools, setTools] = useState([]);
 
   useEffect(() => {
-    // Load the tools data (in a real-world scenario, this could be an API call)
     setTools(toolsData);
   }, []);
 
